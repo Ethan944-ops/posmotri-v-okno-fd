@@ -117,8 +117,8 @@ ol {
 .content__video-card-thumbnail {
   height: 103px;
   min-width: 194px;
-  object-fit: cover;
   object-position: center;
+  object-fit: cover;
 }
 
 .content__list-container {
