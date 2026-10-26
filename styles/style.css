@@ -69,6 +69,12 @@ ol {
 }
 
 .content__list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+
+  position: relative;
+
   height: 298px;
   overflow-y: auto;
 }
@@ -121,14 +127,6 @@ ol {
   object-fit: cover;
 }
 
-.content__list-container {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-
-  position: relative;
-}
-
 .search-form__fieldset-title {
   font-family: Fira Sans Condensed;
   font-weight: 400;
@@ -148,16 +146,10 @@ ol {
   color: #545050;
 }
 
-.content__card-link {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
 .content__video-card-title {
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
-  line-height: 100%;
   line-height: 100%;
   text-transform: uppercase;
   margin-bottom: 6px;
@@ -261,7 +253,7 @@ input[type="text"] {
 
 .search-form__label:has(.search-form__checkbox:focus-visible) {
   outline: 1px solid #fff;
-  outline-offset: 2px; 
+  outline-offset: 2px;
 }
 
 /* Стилизуем кнопки и их состояния */
@@ -309,6 +301,8 @@ input[type="text"] {
 }
 .content__card-link {
   display: block;
+  text-decoration: none;
+  color: #FFFFFF;
 }
 .content__card-link:active {
   background-color: #545050;
@@ -325,4 +319,3 @@ input[type="text"] {
 .content__list-item {
   padding: 3px;
 }
-
