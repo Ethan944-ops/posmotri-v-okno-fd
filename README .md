@@ -1,4 +1,3 @@
-
 # [Посмотри в окно]
 [Ethan944-ops/posmotri-v-okno-fd](https://github.com/Ethan944-ops/posmotri-v-okno-fd)
 Это практическая работа а рамках обучения в Яндекс Практикуме.
