@@ -271,6 +271,7 @@ input[type="text"] {
   font-size: 18px;
   line-height: 100%;
   font-family: inherit;
+  height: 34px;
 }
 .button:hover {
   text-decoration: underline;
@@ -286,9 +287,6 @@ input[type="text"] {
   outline: 1px solid #fff;
   outline-offset: 4px;
   border: 1px solid #fff;
-}
-.button {
-  height: 34px;
 }
 
 .search-form__submit-button {
