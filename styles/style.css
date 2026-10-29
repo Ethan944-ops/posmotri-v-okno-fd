@@ -59,7 +59,6 @@ ol {
   gap: 30px;
   align-items: flex-end;
   width: 1140px;
-  height: 534px;
 }
 
 .search-form {
@@ -128,14 +127,14 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: Fira Sans Condensed, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
 }
 
 .title {
-  font-family: Oswald;
+  font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -210,6 +209,13 @@ input[type="text"] {
 
   appearance: none;
 }
+.search-form__textfield {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  font-family: Fira Sans Condensed, sans-serif;
+  width: 225px;
+}
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
@@ -264,6 +270,7 @@ input[type="text"] {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
+  font-family: inherit;
 }
 .button:hover {
   text-decoration: underline;
@@ -280,11 +287,13 @@ input[type="text"] {
   outline-offset: 4px;
   border: 1px solid #fff;
 }
+.button {
+  height: 34px;
+}
 
 .search-form__submit-button {
   align-self: flex-end;
   width: 194px;
-  height: 34px;
 }
 
 .more-button {
@@ -301,7 +310,7 @@ input[type="text"] {
 }
 .content__card-link {
   display: block;
-  color: #FFFFFF;
+  color: #fff;
   text-decoration: none;
 }
 .content__card-link:active {
